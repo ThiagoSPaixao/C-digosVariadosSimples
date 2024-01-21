@@ -1,4 +1,6 @@
 /* Algorítimo para cálculo de notas de uma Instituição de Ensino;
+
+    ** Utilizando if / else if / else **
   
     Média = (nota 1 + nota 2 + nota 3) / 3;
 
