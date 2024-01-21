@@ -1,7 +1,5 @@
-/* Faça um algorítimo que dado as 3 notas tiradas por um aluno de um semestre
-   da faculdade calcule e imprima a sua média e a sua classificação
-   conforme a tabela abaixo;
-
+/* Algorítimo para cálculo de notas de uma Instituição de Ensino;
+  
     Média = (nota 1 + nota 2 + nota 3) / 3;
 
     Classificação:
