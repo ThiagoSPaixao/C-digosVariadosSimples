@@ -10,22 +10,24 @@
    4 - Acima de duas vezes, preço normal da etiqueta mais juros de 10%;
    */
 
+function aplicarDesconto (valor, desconto){
+    return (valor - (valor * (desconto / 100)));
+}
+
+function aplicarJuros (valor, juros){
+    return (valor + (valor * (juros / 100)));
+}
+
 const precoProduto = 100;
-const meioPagamento = 2;
+const meioPagamento = 4;
 
 if (meioPagamento === 1) {
-    console.log (precoProduto - (precoProduto * 0.1) )
-}
-
-else if (meioPagamento === 2) {
-    console.log (precoProduto - (precoProduto * 0.15))
-}
-
-else if (meioPagamento === 3){
-    console.log (precoProduto)
-}
-
-else {
-    console.log (precoProduto + (precoProduto * 0.1) )
+    console.log(aplicarDesconto(precoProduto, 10));
+} else if (meioPagamento === 2) {
+    console.log(aplicarDesconto(precoProduto, 15,))
+} else if (meioPagamento === 3){
+    console.log (precoProduto);
+} else {
+    console.log (aplicarJuros(precoProduto, 10));
 }
    
